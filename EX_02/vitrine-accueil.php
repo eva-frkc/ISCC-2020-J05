@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style/vitrine.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+       <?php
+       include ("header.php");
+       ?>
+    </header>
+    <div class="contenu">
+        <h2>
+            Accueil
+        </h2>
+        <p>
+            Le numérique, nouvelle ère de l’humanité, source d’innovation et de performance ?Pour mieux comprendre 
+            cette révolution, venez apprendre les rudiments du code etdécouvrir les bases de la programmation des sites 
+            internet. Destiné aux étudiants,ce code camp vous initiera en un mois aux principaux langages de programmation
+            Web (HTML-CSS et PHP), vous dévoilera le fonctionnement d’outils commeGoogleouPaypalet vous éclaira sur 
+            la sécurité des sites internet.
+        </p>
+        <div class="picture">
+        <div class="picture1">
+            <img class="picturesize" src="assetD04/4-5.jpg" alt="Codage">
+        </div>
+        <div class="picture2">
+            <img class="picturesize" src="assetsD04/programming-1836330_960_720.png" alt="Codage2">
+        </div>
+        </div>
+    </div>
+    <footer>
+        <div class="imageep">
+            <a href="https://www.epitech.eu"><img src="assetsD04/logo_epitech.png" alt="logo_epitech"></a>
+    </footer>
+    </div>
+</body>
+
+</html>
